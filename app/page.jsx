@@ -16,7 +16,13 @@ export default function Home() {
     
           <div className="card">
             <h3>New member of the web dev team...</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, at quam. Dolores omnis possimus quam soluta rerum illo laborum ullam pariatur molestiae, modi beatae corrupti.</p>
+            <p>First Name: Yan, 
+            Last Name: Macdonald,  
+            Email Address: yan@Nandos.dev, 
+            Employee ID: 123456, 
+            Department: Web Development,  
+            Job Title: Software Engineer,  
+            Manager: Greg Mcdade.</p>
           </div>
           <div className="card">
             <h3>New website live!</h3>
