@@ -1,25 +1,46 @@
 {
-"tickets": [
+  "tickets": [
     {
-    "id": "1",
-    "title": "Fix the footer links please",
-    "body": "The footer links in my Next.js application are not working properly. When I click on a link, I am not taken to the correct page. Troubleshooting: There are a few possible reasons why the footer links might not be working. Here are a few things to check. Make sure that the links are properly formatted. The links should be wrapped in an <a> tag with the correct href attribute.",
-    "priority": "low",
-    "user_email": "yan@nandos.dev"
+      "id": "1",
+      "title": "Fix the footer links please",
+      "body": "The footer links in my Next.js application are not working properly. When I click on a link, I am not taken to the correct page. Troubleshooting: There are a few possible reasons why the footer links might not be working. Here are a few things to check. Make sure that the links are properly formatted. The links should be wrapped in an <a> tag with the correct href attribute.",
+      "priority": "low",
+      "user_email": "yan@nandos.dev"
     },
     {
-    "id": "2",
-    "title": "Add in a new stylesheet",
-    "body": "You are attempting to incorporate a new stylesheet into your Next.js application, but you are encountering difficulties in applying the styles to your components.Troubleshooting: Before diving into the solution, it's crucial to identify the potential causes for the stylesheet not being applied effectively. Here are a few factors to consider: Import Order: Ensure you are importing the new stylesheet correctly. The new stylesheet should be imported after the global stylesheet or any other stylesheets that might override its rules. Specificity: Check the specificity of your CSS selectors. Specificity determines which CSS rule takes precedence when multiple rules apply to the same element. More specific selectors will override less specific ones. Global Styles: Verify that your new stylesheet doesn't conflict with any global styles defined in your application. Global styles can potentially override the styles in your new stylesheet. CSS Modules: If you're using CSS Modules, ensure the module class names are being used correctly in your components. CSS Modules encapsulate styles and prevent conflicts with global styles. Stylesheet Location: Make sure the new stylesheet is accessible to your Next.js application.",
-    "priority": "medium",
-    "user_email": "yan@nandos.dev"
+      "id": "2",
+      "title": "Add in a new stylesheet",
+      "body": "You are attempting to incorporate a new stylesheet into your Next.js application, but you are encountering difficulties in applying the styles to your components.Troubleshooting: Before diving into the solution, it's crucial to identify the potential causes for the stylesheet not being applied effectively. Here are a few factors to consider: Import Order: Ensure you are importing the new stylesheet correctly. The new stylesheet should be imported after the global stylesheet or any other stylesheets that might override its rules. Specificity: Check the specificity of your CSS selectors. Specificity determines which CSS rule takes precedence when multiple rules apply to the same element. More specific selectors will override less specific ones. Global Styles: Verify that your new stylesheet doesn't conflict with any global styles defined in your application. Global styles can potentially override the styles in your new stylesheet. CSS Modules: If you're using CSS Modules, ensure the module class names are being used correctly in your components. CSS Modules encapsulate styles and prevent conflicts with global styles. Stylesheet Location: Make sure the new stylesheet is accessible to your Next.js application.",
+      "priority": "medium",
+      "user_email": "yan@nandos.dev"
     },
     {
-    "id": "3",
-    "title": "Fix the footer links",
-    "body": "The footer links in my Next.js application are not working properly. When I click on a link, I am not taken to the correct page. Troubleshooting: There are a few possible reasons why the footer links might not be working. Here are a few things to check. Make sure that the links are properly formatted. The links should be wrapped in an <a> tag with the correct href attribute.",
-    "priority": "high",
-    "user_email": "greg@nandos.dev"
+      "id": "3",
+      "title": "Fix the footer links",
+      "body": "The footer links in my Next.js application are not working properly. When I click on a link, I am not taken to the correct page. Troubleshooting: There are a few possible reasons why the footer links might not be working. Here are a few things to check. Make sure that the links are properly formatted. The links should be wrapped in an <a> tag with the correct href attribute.",
+      "priority": "high",
+      "user_email": "greg@nandos.dev"
+    },
+    {
+      "title": "NEW TICKET",
+      "body": "H H H ",
+      "priority": "High",
+      "user_email": "Yan@nandos.dev",
+      "id": "RdRT3SV"
+    },
+    {
+      "title": "new new ticket ",
+      "body": "m ",
+      "priority": "low",
+      "user_email": "Yan@nandos.dev",
+      "id": "OXdsoBd"
+    },
+    {
+      "title": "my new ticket ",
+      "body": "hello ",
+      "priority": "medium",
+      "user_email": "Yan@nandos.dev",
+      "id": "qiAgdOw"
     }
-]
+  ]
 }
