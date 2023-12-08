@@ -22,25 +22,18 @@
       "user_email": "greg@nandos.dev"
     },
     {
-      "title": "NEW TICKET",
-      "body": "H H H ",
-      "priority": "High",
-      "user_email": "Yan@nandos.dev",
-      "id": "RdRT3SV"
+      "id": "4",
+      "title": "Fix the footer links",
+      "body": "The footer links in my Next.js application are not working properly. When I click on a link, I am not taken to the correct page. Troubleshooting: There are a few possible reasons why the footer links might not be working. Here are a few things to check. Make sure that the links are properly formatted. The links should be wrapped in an <a> tag with the correct href attribute.",
+      "priority": "high",
+      "user_email": "andy@nandos.dev"
     },
     {
-      "title": "new new ticket ",
-      "body": "m ",
-      "priority": "low",
-      "user_email": "Yan@nandos.dev",
-      "id": "OXdsoBd"
-    },
-    {
-      "title": "my new ticket ",
-      "body": "hello ",
-      "priority": "medium",
-      "user_email": "Yan@nandos.dev",
-      "id": "qiAgdOw"
+      "title": "test",
+      "body": "new ticket",
+      "user_email": "Yan@Nandos.dev",
+      "priotrity": "high",
+      "id": "jzmZW6q"
     }
   ]
 }
