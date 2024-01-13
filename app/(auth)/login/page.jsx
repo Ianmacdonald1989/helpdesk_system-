@@ -1,20 +1,21 @@
 "use client"
 
-import AuthForm from "../AuthForm";
+// components
+import AuthForm from "../verify/AuthForm"
 
 export default function Login() {
 
 const handleSubmit = async (e, email, password) => {
-    e.preventDefault()
+e.preventDefault()
 
-    console.log('user login', email, password)
+console.log(email, password)
 }
-
+[]
 return (
-    <main>
-    <h2 className="text-center">Log in</h2>
+<main>
+    <h2 className="text-center">Login</h2>
 
-    <AuthForm handleSubmit={handleSubmit}/>
-    </main>
+    <AuthForm handleSubmit={handleSubmit} />
+</main>
 )
 }
