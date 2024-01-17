@@ -1,7 +1,7 @@
 "use client"
 
 // components
-import AuthForm from "../verify/AuthForm"
+import AuthForm from "../AuthForm"
 
 export default function Login() {
 

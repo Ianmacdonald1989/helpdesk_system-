@@ -1,10 +1,17 @@
-import NavBar from "../components/NavBar";
+import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
+import { cookies } from 'next/headers'
 
-export default function DashboardLayout({children}) {
+// components
+import Navbar from '@/app/components/Navbar'
+
+export default async function DashboardLayout({ children }) {
+const supabase = createServerComponentClient({ cookies })
+const { data } = await supabase.auth.getSession()
+
 return (
 <>
-<NavBar/>
-{children}
+    <Navbar user={data.session.user} />
+    {children}
 </>
 )
 }

@@ -1,7 +1,5 @@
-import Tickets from "@/app/(dashboard)/tickets/page"
-import { NextResponse } from "next/server"
 
-export const dynamic = 'force-dynamic'
+import { NextResponse } from "next/server"
 
 export async function GET(_, {params}) {
     const id = params.id

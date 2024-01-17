@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation'
 import { createClientComponentClient } from "@supabase/auth-helpers-nextjs"
 
 // components
-import AuthForm from "../verify/AuthForm"
+import AuthForm from "../AuthForm"
 
 export default function Signup() {
   const router = useRouter()
