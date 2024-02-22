@@ -5,8 +5,8 @@ import { cookies } from 'next/headers'
 import Navbar from '@/app/components/Navbar'
 
 export default async function DashboardLayout({ children }) {
-const supabase = createServerComponentClient({ cookies })
-const { data } = await supabase.auth.getSession()
+    const supabase = createServerComponentClient({ cookies })
+    const { data } = await supabase.auth.getSession()
 
 return (
 <>
